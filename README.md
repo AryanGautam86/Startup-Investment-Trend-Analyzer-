@@ -7,7 +7,7 @@ This project demonstrates the full machine learning pipeline using tabular data.
 - Reading and processing input data
 - Training a classification/regression model using `scikit-learn`
 - Evaluating model performance
-- Storing results in both MongoDB and SQLite
+- Storing results in both MongoDB
 - Saving models with `joblib` for future inference
 
 <b>#Features
@@ -15,5 +15,4 @@ This project demonstrates the full machine learning pipeline using tabular data.
 - Data preprocessing (cleaning, encoding, splitting)
 - ML model training and evaluation
 - Model persistence using `joblib`
-- Data storage in both SQLite and MongoDB
-- Visualizations of accuracy and other metrics
+- Data storage in MongoDB
