@@ -5,9 +5,8 @@
 This project demonstrates the full machine learning pipeline using tabular data. It supports:
 
 - Reading and processing input data
-- Training a classification/regression model using `scikit-learn`
+- Training a classification/regression model using `scikit-learn`(XGBRegressor)
 - Evaluating model performance
-- Storing results in both MongoDB
 - Saving models with `joblib` for future inference
 
 <b>#Features
@@ -15,4 +14,3 @@ This project demonstrates the full machine learning pipeline using tabular data.
 - Data preprocessing (cleaning, encoding, splitting)
 - ML model training and evaluation
 - Model persistence using `joblib`
-- Data storage in MongoDB
